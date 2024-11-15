@@ -2341,7 +2341,7 @@ CREATE TABLE `modx_manager_log` (
   `item` varchar(191) NOT NULL DEFAULT '0',
   PRIMARY KEY (`id`),
   KEY `user_occurred` (`user`,`occurred`)
-) ENGINE=InnoDB AUTO_INCREMENT=16 DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB AUTO_INCREMENT=17 DEFAULT CHARSET=utf8;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 /*!40101 SET SQL_MODE=@OLD_SQL_MODE */;
@@ -2375,6 +2375,7 @@ REPLACE INTO `modx_manager_log` VALUES (12,1,'2024-11-15 16:50:46','setting_upda
 REPLACE INTO `modx_manager_log` VALUES (13,1,'2024-11-15 16:52:36','setting_update','modSystemSetting','site_name');
 REPLACE INTO `modx_manager_log` VALUES (14,1,'2024-11-15 16:54:30','setting_update','modSystemSetting','pdotools_fenom_parser');
 REPLACE INTO `modx_manager_log` VALUES (15,1,'2024-11-15 16:54:31','setting_update','modSystemSetting','pdotools_fenom_php');
+REPLACE INTO `modx_manager_log` VALUES (16,1,'2024-11-15 18:21:30','login','modContext','mgr');
 /*!40000 ALTER TABLE `modx_manager_log` ENABLE KEYS */;
 
 /*!40101 SET SQL_MODE=@OLD_SQL_MODE */;
@@ -4139,6 +4140,8 @@ CREATE TABLE `modx_session` (
 
 /*!40000 ALTER TABLE `modx_session` DISABLE KEYS */;
 REPLACE INTO `modx_session` VALUES ('4r0glghorcfm46eh8avr44555m',1731677597,'modx.user.contextTokens|a:1:{s:3:\"mgr\";i:1;}modx.mgr.user.token|s:52:\"modx67374d3db86004.79451653_167374d9d61d872.15440906\";modx.mgr.session.cookie.lifetime|i:0;modx.mgr.user.config|a:0:{}');
+REPLACE INTO `modx_session` VALUES ('9ef1qrr7br4m2tmkor01sqds57',1731695061,'modx.user.contextTokens|a:0:{}modx.user.0.resourceGroups|a:1:{s:3:\"mgr\";a:0:{}}modx.user.0.attributes|a:1:{s:3:\"mgr\";a:5:{s:16:\"modAccessContext\";a:1:{s:3:\"web\";a:1:{i:0;a:3:{s:9:\"principal\";i:0;s:9:\"authority\";s:1:\"0\";s:6:\"policy\";a:3:{s:4:\"load\";b:1;s:6:\"formit\";b:1;s:18:\"formit_encryptions\";b:0;}}}}s:22:\"modAccessResourceGroup\";a:0:{}s:17:\"modAccessCategory\";a:0:{}s:28:\"sources.modAccessMediaSource\";a:0:{}s:18:\"modAccessNamespace\";a:0:{}}}');
+REPLACE INTO `modx_session` VALUES ('f866po07f7a2cscsfu0q8ld99n',1731694890,'modx.user.contextTokens|a:1:{s:3:\"mgr\";i:1;}modx.user.0.resourceGroups|a:1:{s:3:\"mgr\";a:0:{}}modx.user.0.attributes|a:2:{s:3:\"web\";a:5:{s:16:\"modAccessContext\";a:1:{s:3:\"web\";a:1:{i:0;a:3:{s:9:\"principal\";i:0;s:9:\"authority\";s:1:\"0\";s:6:\"policy\";a:3:{s:4:\"load\";b:1;s:6:\"formit\";b:1;s:18:\"formit_encryptions\";b:0;}}}}s:22:\"modAccessResourceGroup\";a:0:{}s:17:\"modAccessCategory\";a:0:{}s:28:\"sources.modAccessMediaSource\";a:0:{}s:18:\"modAccessNamespace\";a:0:{}}s:3:\"mgr\";a:5:{s:16:\"modAccessContext\";a:1:{s:3:\"web\";a:1:{i:0;a:3:{s:9:\"principal\";i:0;s:9:\"authority\";s:1:\"0\";s:6:\"policy\";a:3:{s:4:\"load\";b:1;s:6:\"formit\";b:1;s:18:\"formit_encryptions\";b:0;}}}}s:22:\"modAccessResourceGroup\";a:0:{}s:17:\"modAccessCategory\";a:0:{}s:28:\"sources.modAccessMediaSource\";a:0:{}s:18:\"modAccessNamespace\";a:0:{}}}modx.mgr.user.token|s:52:\"modx67374d3db86004.79451653_16737912a6a0943.43627857\";modx.mgr.session.cookie.lifetime|i:0;modx.mgr.user.config|a:0:{}');
 /*!40000 ALTER TABLE `modx_session` ENABLE KEYS */;
 
 /*!40101 SET SQL_MODE=@OLD_SQL_MODE */;
@@ -5680,7 +5683,7 @@ CREATE TABLE `modx_user_attributes` (
 /*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;
 
 /*!40000 ALTER TABLE `modx_user_attributes` DISABLE KEYS */;
-REPLACE INTO `modx_user_attributes` VALUES (1,1,'Администратор по умолчанию','witaliy999@gmail.com','','',0,0,0,1,0,1731677597,0,'4r0glghorcfm46eh8avr44555m',0,0,'','','','','','','','','',NULL);
+REPLACE INTO `modx_user_attributes` VALUES (1,1,'Администратор по умолчанию','witaliy999@gmail.com','','',0,0,0,2,1731677597,1731694890,0,'f866po07f7a2cscsfu0q8ld99n',0,0,'','','','','','','','','',NULL);
 /*!40000 ALTER TABLE `modx_user_attributes` ENABLE KEYS */;
 
 /*!40101 SET SQL_MODE=@OLD_SQL_MODE */;

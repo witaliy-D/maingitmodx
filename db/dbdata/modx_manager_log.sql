@@ -24,6 +24,7 @@ REPLACE INTO `modx_manager_log` VALUES (12,1,'2024-11-15 16:50:46','setting_upda
 REPLACE INTO `modx_manager_log` VALUES (13,1,'2024-11-15 16:52:36','setting_update','modSystemSetting','site_name');
 REPLACE INTO `modx_manager_log` VALUES (14,1,'2024-11-15 16:54:30','setting_update','modSystemSetting','pdotools_fenom_parser');
 REPLACE INTO `modx_manager_log` VALUES (15,1,'2024-11-15 16:54:31','setting_update','modSystemSetting','pdotools_fenom_php');
+REPLACE INTO `modx_manager_log` VALUES (16,1,'2024-11-15 18:21:30','login','modContext','mgr');
 /*!40000 ALTER TABLE `modx_manager_log` ENABLE KEYS */;
 
 /*!40101 SET SQL_MODE=@OLD_SQL_MODE */;

@@ -9,7 +9,7 @@
 /*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;
 
 /*!40000 ALTER TABLE `modx_user_attributes` DISABLE KEYS */;
-REPLACE INTO `modx_user_attributes` VALUES (1,1,'Администратор по умолчанию','witaliy999@gmail.com','','',0,0,0,1,0,1731677597,0,'4r0glghorcfm46eh8avr44555m',0,0,'','','','','','','','','',NULL);
+REPLACE INTO `modx_user_attributes` VALUES (1,1,'Администратор по умолчанию','witaliy999@gmail.com','','',0,0,0,2,1731677597,1731694890,0,'f866po07f7a2cscsfu0q8ld99n',0,0,'','','','','','','','','',NULL);
 /*!40000 ALTER TABLE `modx_user_attributes` ENABLE KEYS */;
 
 /*!40101 SET SQL_MODE=@OLD_SQL_MODE */;
